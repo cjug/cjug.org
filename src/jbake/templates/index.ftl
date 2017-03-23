@@ -19,7 +19,9 @@
 		</div>
 		<div class="col-md-4">
 			<img src="images/cjug_small.jpeg"></img>
+			<div>
 			<iframe width="225" height="570" src="http://meetu.ps/388QJL" frameborder="0"></iframe>
+			</div>
 			<h2><u>Archives</u></h2>
 				<!--<ul>-->
 				<#list published_posts as post>
