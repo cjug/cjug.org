@@ -14,6 +14,7 @@
     <script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>js/jquery-1.11.1.min.js"></script>
     <script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>js/bootstrap.min.js"></script>
     <script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>js/prettify.js"></script>
-    
+    <script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>js/handlebars.runtime-v4.0.5.js"></script>
+    <script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>js/cjug.js"></script>
   </body>
 </html>

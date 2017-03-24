@@ -6,16 +6,8 @@
 		<img src="images/cjug_banner.jpeg"></img>
 	</div>
 	<div class="row">
-		<div class="col-md-8">
-			<#list posts as post>
-				<#if (post.status == "published")>
-					<a href="${post.uri}"><h1><#escape x as x?xml>${post.title}</#escape></h1></a>
-					<p>${post.date?string("dd MMMM yyyy")}</p>
-					<p>${post.body}</p>
-				</#if>
-			</#list>
+		<div id="meetup-main" class="col-md-8">
 			
-			<hr />
 		</div>
 		<div class="col-md-4">
 			<img src="images/cjug_small.jpeg"></img>
@@ -38,6 +30,19 @@
 				<#assign last_month = post.date?string("MMMM yyyy")>
 				</#list>
 			</ul>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<#list posts as post>
+				<#if (post.status == "published")>
+					<a href="${post.uri}"><h1><#escape x as x?xml>${post.title}</#escape></h1></a>
+					<p>${post.date?string("dd MMMM yyyy")}</p>
+					<p>${post.body}</p>
+				</#if>
+			</#list>
+			
+			<hr />
 		</div>
 	</div>
 	

@@ -19,6 +19,15 @@
     <!--[if lt IE 9]>
       <script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>js/html5shiv.min.js"></script>
     <![endif]-->
+    
+    <script id="meetup-template" type="text/x-handlebars-template">
+	  <div class="meetup">
+	    <h1>{{name}}</h1>
+	    <div class="body">
+	      {{description}}
+	    </div>
+	  </div>
+	</script>
 
     <!-- Fav and touch icons -->
     <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
