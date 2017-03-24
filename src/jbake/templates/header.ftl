@@ -19,7 +19,7 @@
     <!--[if lt IE 9]>
       <script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>js/html5shiv.min.js"></script>
     <![endif]-->
-    
+    <script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>js/jquery-1.11.1.min.js"></script>
     <script id="meetup-template" type="text/x-handlebars-template">
 	  <div class="meetup">
 	    <h1>{{name}}</h1>
