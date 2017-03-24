@@ -11,7 +11,6 @@
 		</div>
 		<div class="col-md-4">
 			<img src="images/cjug_small.jpeg"></img>
-			<iframe width="225" height="570" src="https://meetu.ps/388QJL" frameborder="0"></iframe>
 			<h2><u>Archives</u></h2>
 				<!--<ul>-->
 				<#list published_posts as post>
