@@ -25,14 +25,20 @@
 	  	<div class="panel-group" id="accordion">
 	    {{#each data}}
 	    <h2><a href="{{link}}">{{name}}</a></h2>
-	    <div>
-	    	{{formatDate time}}
-	    </div>
+	    <h5>
+	      {{formatDate time}}
+	      -
+	      {{#ifCond (math rsvp_limit '-' yes_rsvp_count) '>' 0}}
+	        {{math rsvp_limit '-' yes_rsvp_count}} Spots Left
+	      {{else}}
+	        Waitlist
+	      {{/ifCond}}
+	    </h5>
 	    <div class="panel panel-default">
 		    <div class="panel-heading">
 		      <h4 class="panel-title">
 			    <div data-toggle="collapse" data-parent="#accordion" href="#collapse{{@index}}">
-		          Abstract
+		          <a href="#" data-toggle="tooltip" data-placement="top" title="Expand">Abstract</a>
 		        </div>
 		      </h4>
 		    </div>
@@ -42,6 +48,7 @@
 			    </div>
 			</div>
 		</div>
+		<br></br>
 	    {{/each}}
 	    </div>
 	  </div>
