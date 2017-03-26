@@ -8,14 +8,12 @@
 	<div class="row">
 	    <div class="col-md-8">
 	        <h2>Upcoming Meetings</h2>
-	        <div id="meetup-main">
-	        </div>
+	        <div id="meetup-main"></div>
 	        <h2>Previous Meetings</h2>
 	        <h4>Previous meetup recordings can be found <a href="https://vimeo.com/channels/1109817">here</a>.</h4>
 	    </div>
         <div class="col-md-4">
             <h2>Social</h2>
-            <hr />
             <a href="https://www.linkedin.com/groups/4691739/profile" style="text-decoration:none;">
                 <span style="font: 115% Arial,sans-serif; color:#0783B6;"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png" width="30" height="23" alt="View CJUG's Group" style="vertical-align:middle;" border="0">
                     LinkedIn cjug
