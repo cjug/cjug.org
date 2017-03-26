@@ -6,40 +6,39 @@
 		<img src="images/cjug_banner.jpeg"></img>
 	</div>
 	<div class="row">
-		<div class="col-md-8">
-			<#list posts as post>
-				<#if (post.status == "published")>
-					<a href="${post.uri}"><h1><#escape x as x?xml>${post.title}</#escape></h1></a>
-					<p>${post.date?string("MMMM dd, yyyy")}</p>
-					<p>${post.body}</p>
-				</#if>
-			</#list>
-			
-			<hr />
-		</div>
-		<div class="col-md-4">
-        			<img src="images/cjug_small.jpeg"></img>
-        			<h2><u>Archives</u></h2>
-        				<!--<ul>-->
-        				<#list published_posts as post>
-        				<#if (last_month)??>
-        					<#if post.date?string("MMMM yyyy") != last_month>
-        						</ul>
-        						<h4>${post.date?string("MMMM yyyy")}</h4>
-        						<ul>
-        					</#if>
-        				<#else>
-        					<h4>${post.date?string("MMMM yyyy")}</h4>
-        					<ul>
-        				</#if>
-
-        				<li>${post.date?string("dd")} - <a href="${content.rootpath}${post.uri}"><#escape x as x?xml>${post.title}</#escape></a></li>
-        				<#assign last_month = post.date?string("MMMM yyyy")>
-        				</#list>
-        			</ul>
-        		</div>
+	    <div class="col-md-8">
+	        <h2>Upcoming Meetings</h2>
+	        <div id="meetup-main"></div>
+	        <h2>Previous Meetings</h2>
+	        <h4>Previous meetup recordings can be found <a href="https://vimeo.com/channels/1109817">here</a>.</h4>
+	    </div>
+        <div class="col-md-4">
+            <h2>Social</h2>
+            <a href="https://www.linkedin.com/groups/4691739/profile" style="text-decoration:none; display:inline-block; vertical-align:middle;">
+                <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png" width="30" height="23" alt="View CJUG's Group" border="0">
+                <span style="font: 115% Arial,sans-serif; color:#0783B6; display:inline-block; vertical-align:middle;">
+                    LinkedIn cjug
+                </span>
+            </a>
+            <br/><br/>
+            <a href="http://www.facebook.com/ChicagoJava" style="text-decoration:none; display:inline-block; vertical-align:middle;">
+                <img src="images/FB-f-Logo__blue_29.png" width="23" height="23" style="vertical-align:middle;" border="0">
+                <span style="font: 115% Arial,sans-serif; display:inline-block; vertical-align:middle;">
+                    &nbsp;Facebook cjug
+                </span>
+            </a>
+            <br/><br/>
+            <a href="https://chicago-tech.slack.com/" style="text-decoration:none;">
+                <img src="images/Slack_Mark_Web.png" width="23" height="23" border="0">
+                <span style="font: 115% Arial,sans-serif; display:inline-block; vertical-align:middle;">
+                    &nbsp;Chicago Tech Slack
+                </span>
+            </a>
+            <br/><br/>
+            <a class="twitter-timeline" href="https://twitter.com/cjug" data-tweet-limit="5">Tweets by cjug</a>
+            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <br/><br/>
+        </div>
 	</div>
-	
-	<p>Older posts are available in the <a href="${content.rootpath}${config.archive_file}">archive</a>.</p>
 
 <#include "footer.ftl">
