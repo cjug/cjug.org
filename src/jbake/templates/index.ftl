@@ -35,9 +35,19 @@
                 </span>
             </a>
             <br/><br/>
+            <a href="https://twitter.com/cjug" style="text-decoration:none;">
+                <img src="images/Twitter_Logo_White_On_Blue.png" width="23" height="23" border="0">
+                <span style="font: 115% Arial,sans-serif; display:inline-block; vertical-align:middle;">
+                    &nbsp;@cjug
+                </span>
+            </a>
+            <!--
             <a class="twitter-timeline" href="https://twitter.com/cjug" data-tweet-limit="5">Tweets by cjug</a>
             <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
             <br/><br/>
+            -->
+            <h2>Sponsors</h2>
+            <div id="meetup-sponsors-main"></div>
         </div>
 	</div>
 
