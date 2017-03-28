@@ -46,7 +46,8 @@
             <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
             <br/><br/>
             -->
-            <h2>Sponsors</h2>
+            <div align="center"><h2>Sponsors</h2></div>
+            <hr/>
             <div id="meetup-sponsors-main"></div>
         </div>
 	</div>
