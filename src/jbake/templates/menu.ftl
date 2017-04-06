@@ -17,6 +17,19 @@
             <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>officers-and-board.html">Officers and Board</a></li>
             <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>adopt-a-jsr.html">Adopt-A-JSR</a></li>
             <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>about.html">About</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Sponsorship
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>sponsorship.html">Sponsorship Levels</a>
+                    </li>
+                    <li>
+                        <a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>sponsorship-tips.html">Sponsorship Tips</a>
+                    </li>
+                </ul>
+            </li>
             <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>${config.feed_file}">Subscribe</a></li>
             <!--<li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
