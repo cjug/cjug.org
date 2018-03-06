@@ -2,7 +2,7 @@
 
 	<#include "menu.ftl">
 	
-	<div class="page-header">
+	<div>
 		<h1>Tag: ${tag}</h1>
 	</div>
 	

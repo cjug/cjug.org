@@ -1,9 +1,10 @@
 <#include "header.ftl">
 
 	<#include "menu.ftl">
-	<div class="page-header">
+	<div>
 	    <img src="images/cjug_banner.jpeg"></img>
 	</div>
+    <hr/>
 	<div class="row">
         <div class="col-md-8">
             <#list posts as post>

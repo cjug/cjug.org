@@ -2,7 +2,7 @@
 
 	<#include "menu.ftl">
 	
-	<div class="page-header">
+	<div>
 		<h1>Blog Archive</h1>
 	</div>
 	

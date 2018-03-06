@@ -19,7 +19,10 @@
     <!--[if lt IE 9]>
       <script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>js/html5shiv.min.js"></script>
     <![endif]-->
+
+
     <script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>js/jquery-1.11.1.min.js"></script>
+
     <script id="meetup-template" type="text/x-handlebars-template">
 	  <div class="meetup">
 	  	<div class="panel-group" id="accordion">
@@ -65,6 +68,9 @@
         {{/each}}
       </div>
     </script>
+
+      <script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>js/md5.min.js"></script>
+      <script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>js/gravatar.js"></script>
 
     <!-- Fav and touch icons -->
     <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">

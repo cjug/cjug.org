@@ -1,11 +1,12 @@
 <#include "header.ftl">
 
 	<#include "menu.ftl">
-	<div class="page-header">
+	<div>
         <img src="images/cjug_banner.jpeg"></img>
     </div>
+	<hr/>
 	
-	<div class="page-header">
+	<div>
 		<h1><#escape x as x?xml>${content.title}</#escape></h1>
 	</div>
 

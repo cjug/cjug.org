@@ -2,9 +2,10 @@
 	
 	<#include "menu.ftl">
 
-	<div class="page-header">
+	<div>
 		<img src="images/cjug_banner.jpeg"></img>
 	</div>
+    <hr/>
 	<div class="row">
 	    <div class="col-md-8">
 	        <h2>Upcoming Meetings</h2>
