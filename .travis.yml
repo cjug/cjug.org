@@ -3,8 +3,7 @@ language: java
 install: true
 jdk: oraclejdk8
 script:
-  - 'if [ "$TRAVIS_PULL_REQUEST" = "true" ]; then gradle jbake; fi'
-  - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then gradle publish; fi'
+  - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ] && ["$TRAVIS_BRANCH" = "master"]; then gradle publish; else gradle jbake; fi'
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
