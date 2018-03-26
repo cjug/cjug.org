@@ -11,15 +11,7 @@
             <li class="nav-item"><a class="nav-link" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>officers-and-board.html">Officers and Board</a></li>
             <li class="nav-item"><a class="nav-link" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>adopt-a-jsr.html">Adopt-A-JSR</a></li>
             <li class="nav-item"><a class="nav-link" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>about.html">About</a></li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="sponsorshipDropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true">
-                    Sponsorship
-                </a>
-                <div class="dropdown-menu" aria-labelledby="sponsorshipDropdown">
-                    <a class="dropdown-item" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>sponsorship.html">Sponsorship Levels</a>
-                    <a class="dropdown-item" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>sponsorship-tips.html">Sponsorship Tips</a>
-                </div>
-            </li>
+            <li class="nav-item"><a class="nav-link" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>sponsorship.html">Sponsorship</a></li>
             <li class="nav-item"><a class="nav-link" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>${config.feed_file}">Subscribe</a></li>
         </ul>
     </div>
