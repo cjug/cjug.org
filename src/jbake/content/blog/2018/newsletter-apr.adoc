@@ -27,13 +27,13 @@ Community Leader - Janine ‘It Works on My Box’ Patterson
 
 
 === Summer of Fun!
-We have some great speakers lined up for the summer.  Check out link:https://meet.meetup.com/wf/click?upn=pEEcc35imY7Cq0tG1vyTt3miACH3kxpXb8TgLtvZl9cNDVLrtlGHZ5fUx-2FeBx5dVwjip-2BjZ4VPJA8dHaQmQ1bA-3D-3D_OGSh7qcBXBPPzK5pKXbBZVbbZPwgY0-2Bo1ELc-2Bxqa-2BlvPCm2fp9aO-2FLcGqOGoqjJLrsgaf0OOQw-2F6xemGQ4hjiBT0AQItCz169LNcgt6r3mq2lLhdXb7iDeJ-2FKiwm9zJ1nQ6NqJX8PJRweCh-2F3-2F5mCbp3bDVUxjdqwfs1uuyUNfYkMxf61KNhwnrZTyxKAFZYUmWXSmdnHIfVACDjW1KAfw1AN847zalS1eBgPBBbCm0-3D[Bruno Souza Presents: 3 steps for an amazing Java career] on April 9th.  Bruno is stopping in Chicago as part of his JUG Tour around the US.  He’ll be giving some sage and fun advice on how to build your awesome career!
+We have some great speakers lined up for the summer.  Check out link:https://www.meetup.com/ChicagoJUG/events/249019748/[Bruno Souza Presents: 3 steps for an amazing Java career] on April 9th.  Bruno is stopping in Chicago as part of his JUG Tour around the US.  He’ll be giving some sage and fun advice on how to build your awesome career!
 
-The next monthly link:https://meet.meetup.com/wf/click?upn=pEEcc35imY7Cq0tG1vyTt3miACH3kxpXb8TgLtvZl9cNDVLrtlGHZ5fUx-2FeBx5dVAmjDamhgSZ5hEykE9SzRGQ-3D-3D_OGSh7qcBXBPPzK5pKXbBZVbbZPwgY0-2Bo1ELc-2Bxqa-2BlvPCm2fp9aO-2FLcGqOGoqjJLrsgaf0OOQw-2F6xemGQ4hjiOHVhIKKXgLmliDT0b6s5Z1MgeqUq4Rz3NByz-2F-2For-2BMlisMRV76CRyMH2-2BqmtRzhia37kOsc55b1S-2FJQOf0QhK4e27wyntJhlQaapLwlgkXo9iXU-2FJuE5Ejg8a3Tci5LkmV-2FXoKZ9HxqzWjceyPFuC8-3D[Office Hours] is scheduled for April 17th.  If you’d like to request a topic for the next office hours, or want to volunteer to be an office hours aide, contact mailto:todd.ginsberg@cjug.org[Todd] or mailto:janine.patterson@cjug.org[Janine].
+The next monthly link:https://www.meetup.com/ChicagoJUG/events/249371100/[Office Hours] is scheduled for April 17th.  If you’d like to request a topic for the next office hours, or want to volunteer to be an office hours aide, contact mailto:todd.ginsberg@cjug.org[Todd] or mailto:janine.patterson@cjug.org[Janine].
 
 Mark your calendar for April 19th.  Thomas Nield will present Data Science with Kotlin.  Kotlin is hitting the prime time as a JVM language for Big Data, and Thomas will show us how.
 
-link:https://meet.meetup.com/wf/click?upn=pEEcc35imY7Cq0tG1vyTt46osmEo83Q98LZcdaoX80U-3D_OGSh7qcBXBPPzK5pKXbBZVbbZPwgY0-2Bo1ELc-2Bxqa-2BlvPCm2fp9aO-2FLcGqOGoqjJLrsgaf0OOQw-2F6xemGQ4hjiDMCCrZ8Ornar9og6DPc7Vh03mSjqSySta7D4m8-2FmWNHLeCu-2F96BEOcNNHEQLrqrvB12yNwK9FbWjPLoC72fAIR5IgwxSvrnCzQ-2FMkFnIutNRJ5Exq1KqhlF9NBNWgIKQI2U88DHk7r-2FFlzfjaeIEc8-3D[GOTO Chicago] is coming up soon.  Talks are on April 25th and 26th.  Workshops on April 24th and 27th. Registration is still open.
+link:https://gotochgo.com/[GOTO Chicago] is coming up soon.  Talks are on April 25th and 26th.  Workshops on April 24th and 27th. Registration is still open.
 
 Keep an eye on the calendar.  CJUG has two speakers scheduled for every month this summer.  Announcements will be made in a timely fashion before each speaker’s talk.
 
