@@ -19,11 +19,11 @@ June 2nd - Partner Event - We are also excited to share with you another kid foc
 
 
 === Upcoming Events
-We’re deeply committed to supporting and enhancing the OSS community.  CJUG’s own Bob and Josh will lead a discussion on how you can link:https://www.meetup.com/ChicagoJUG/events/249969567/[participate and give back to the OSS community] on May 10th.  From the Dark Web to the Panama Papers, you’d be surprised at how OSS contribution has impacted some of the most compelling recent scandals.  (This will be a virtual event)
+May 10th - We’re deeply committed to supporting and enhancing the OSS community.  CJUG’s own Bob and Josh will lead a discussion on how you can link:https://www.meetup.com/ChicagoJUG/events/249969567/[participate and give back to the OSS community].  From the Dark Web to the Panama Papers, you’d be surprised at how OSS contribution has impacted some of the most compelling recent scandals.  (This will be a virtual event)
 
-The next monthly link:https://www.meetup.com/ChicagoJUG/events/249371100/[Office Hours] is scheduled for May 16th with a group project on Logging, led by Lamar Smith.  If you’d like to request a topic for the next office hours, or want to volunteer to be an office hours aide, contact mailto:todd.ginsberg@cjug.org[Todd] or mailto:janine.patterson@cjug.org[Janine].
+May 16th - The next monthly link:https://www.meetup.com/ChicagoJUG/events/249371100/[Office Hours] is scheduled with a group project on Logging, led by Lamar Smith.  If you’d like to request a topic for the next office hours, or want to volunteer to be an office hours aide, contact mailto:todd.ginsberg@cjug.org[Todd] or mailto:janine.patterson@cjug.org[Janine].
 
-David Blevins will be presenting link:https://www.meetup.com/ChicagoJUG/events/249969823/[Deconstructing and Evolving REST Security] on May 21st.  Security for REST endpoints… you mean I’m not supposed to throw all of my apis on the open web and expose everything?  Ugh...
+May 21st - David Blevins will be presenting link:https://www.meetup.com/ChicagoJUG/events/249969823/[Deconstructing and Evolving REST Security].  Security for REST endpoints… you mean I’m not supposed to throw all of my apis on the open web and expose everything?  Ugh...
 
 
 
