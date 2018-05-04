@@ -7,13 +7,12 @@
     <div class="collapse navbar-collapse" id="nav-content">
         <ul class="navbar-nav">
             <li class="nav-item"><a class="nav-link" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>blog.html">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>blog.html">News</a></li>
             <li class="nav-item"><a class="nav-link" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>officers-and-board.html">Officers and Board</a></li>
             <li class="nav-item"><a class="nav-link" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>cjug-4-kids.html">CJUG4Kids</a></li>
             <li class="nav-item"><a class="nav-link" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>adopt-a-jsr.html">Adopt-A-JSR</a></li>
-            <li class="nav-item"><a class="nav-link" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>about.html">About</a></li>
             <li class="nav-item"><a class="nav-link" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>sponsorship.html">Sponsorship</a></li>
-            <li class="nav-item"><a class="nav-link" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>${config.feed_file}">Subscribe</a></li>
+            <li class="nav-item"><a class="nav-link" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>about.html">About</a></li>
         </ul>
     </div>
 </nav>
