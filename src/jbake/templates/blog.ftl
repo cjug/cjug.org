@@ -2,7 +2,7 @@
 
 	<#include "menu.ftl">
 	<div>
-	    <img src="images/cjug_banner.jpeg"></img>
+	    <img src="/images/cjug_banner.jpeg"></img>
 	</div>
     <hr/>
 	<div class="row">
@@ -18,7 +18,7 @@
             <hr />
         </div>
         <div class="col-md-4">
-            <img src="images/cjug_small.jpeg"></img>
+            <img src="/images/cjug_small.jpeg"></img>
             <h2><u>Archives</u></h2>
                 <!--<ul>-->
                 <#list published_posts as post>
