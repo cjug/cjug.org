@@ -8,8 +8,9 @@
     <hr/>
 	<div class="row">
 	    <div class="col-md-8">
-	        <#--<h2>Upcoming Meetings</h2>
-	        <div id="meetup-main"></div> -->
+	        <h2>Upcoming Meetings</h2>
+            <h4>  For more information on our events, visit <a href="https://www.meetup.com/ChicagoJUG/"> CJUG </a> </h4>
+	        <#--<div id="meetup-main"></div> -->
 	        <h2>Previous Meetings</h2>
 	        <h4>Previous meetup recordings can be found <a href="https://vimeo.com/channels/1109817">here</a>.</h4>
 	    </div> 
