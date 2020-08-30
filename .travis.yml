@@ -2,7 +2,7 @@ dist: trusty
 os: linux
 language: java
 install: true
-jdk: openjdk8
+jdk: oraclejdk8
 script:
   - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ] && [ "$TRAVIS_BRANCH" = "master" ]; then gradle publish; else gradle jbake; fi'
 
