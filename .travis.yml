@@ -1,3 +1,4 @@
+dist: bionic
 os: linux
 language: java
 install: true
