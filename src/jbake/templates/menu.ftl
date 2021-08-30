@@ -5,9 +5,9 @@
 <nav id="nav">
   <ul class="links">
     <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>index.html">Home</a></li>
-    <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>news.html">News</a></li>
-    <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>officers.html">Officers</a></li>
-    <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>opensource.html">Open Source</a></li>
+    <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>blog.html">News</a></li>
+    <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>officers-and-board.html">Officers</a></li>
+    <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>oss.html">Open Source</a></li>
     <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>sponsorship.html">Sponsorship</a></li>
     <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>about.html">About</a></li>
   </ul>
