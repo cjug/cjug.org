@@ -13,6 +13,8 @@
 		<link rel="stylesheet" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>css/main.css" />
     <link rel="shortcut icon" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>favicon.ico">
 		<noscript><link rel="stylesheet" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>css/noscript.css" /></noscript>
+    <script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>js/md5.min.js"></script>
+    <script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>js/gravatar.js"></script>
 </head>
 
 <body class="is-preload">
