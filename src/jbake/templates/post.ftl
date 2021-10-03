@@ -1,15 +1,14 @@
 <#include "header.ftl">
-	
-	<#include "menu.ftl">
-	
-	<div>
-		<h1><#escape x as x?xml>${content.title}</#escape></h1>
-	</div>
 
-	<p><em>${content.date?string("MMMM dd, yyyy")}</em></p>
+  <section class="post">
+    <header class="major">
+      <#if (content.title)??>
+        <span class="date">${content.date?string("dd MMMM yyyy")}</span>
+        <h1><#escape x as x?xml>${content.title}</#escape></h1>
+      <#else></#if>
+    </header>
+    <p>${content.body}</p>
+    <hr />
+  </section>
 
-	<p>${content.body}</p>
-
-	<hr />
-	
 <#include "footer.ftl">

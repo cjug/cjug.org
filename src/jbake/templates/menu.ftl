@@ -1,20 +1,21 @@
-<!-- Fixed navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>"><img src="/images/cjug_small.jpeg"/></a>
-    <div class="collapse navbar-collapse" id="nav-content">
-        <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>blog.html">News</a></li>
-            <li class="nav-item"><a class="nav-link" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>officers-and-board.html">Officers and Board</a></li>
-            <li class="nav-item"><a class="nav-link" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>cjug-4-kids.html">CJUG4Kids</a></li>
-            <li class="nav-item"><a class="nav-link" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>oss.html">OSS</a></li>
-            <li class="nav-item"><a class="nav-link" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>sponsorship.html">Sponsorship</a></li>
-            <li class="nav-item"><a class="nav-link" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>about.html">About</a></li>
-        </ul>
-    </div>
+<!--
+<li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>index.html">Home</a></li> 
+-->
+<!-- Nav -->
+<nav id="nav">
+  <ul class="links">
+    <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>index.html">Home</a></li>
+    <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>blog.html">News</a></li>
+    <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>officers-and-board.html">Officers</a></li>
+    <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>oss.html">Open Source</a></li>
+    <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>sponsorship.html">Sponsorship</a></li>
+    <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>about.html">About</a></li>
+  </ul>
+  <ul class="icons">
+    <li><a href="https://twitter.com/cjug" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+    <li><a href="https://www.facebook.com/ChicagoJava" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+    <li><a href="https://chicago-tech.slack.com/" class="icon brands fa-slack"><span class="label">Slack</span></a></li>
+    <li><a href="https://www.linkedin.com/groups/4691739/profile" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+    <li><a href="https://www.youtube.com/user/CJUGVideos" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
+  </ul>
 </nav>
-
-<div class="container">
