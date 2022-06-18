@@ -1,15 +1,16 @@
 # cjug.org
 
-CJUG Website DEV
+## Requirements
+Download the latest version of Hugo from [here](https://gohugo.io/) or from your package manager of choice.
 
-For installing on your local. Download JBake and have it on the path. Run following command to check if JBake works
+### Installing with Homebrew
+```shell
+$ brew install hugo
+```
 
-`jbake -h`
+## Running locally
+```shell
+$ hugo server
+```
 
-For baking templates to HTML files. Run the following command.
-
-`jbake src/jbake output`
-
-Now, changes would be live and served on your localhost after
-
-`jbake -s`
+That's all! :)
