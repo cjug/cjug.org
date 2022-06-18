@@ -1,0 +1,40 @@
+baseURL = 'https://cjug.org/'
+languageCode = 'en-us'
+title = 'CJUG'
+theme = 'ananke'
+
+[menu]
+[[menu.main]]
+  identifier='home'
+  name='Home'
+  url='/'
+  weight=1
+[[menu.main]]
+  identifier='about'
+  name='About'
+  url='/about'
+  weight=2
+[[menu.main]]
+  identifier='sponsors'
+  name='Sponsors'
+  url='/sponsors'
+  weight=3
+[[menu.main]]
+  identifier='events'
+  name='Events'
+  url='/events'
+  weight=4
+
+[params]
+[[params.ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/cjug"
+[[params.ananke_socials]]
+name = "facebook"
+url = "https://facebook.com/ChicagoJava"
+[[params.ananke_socials]]
+name = "linkedin"
+url = "https://www.linkedin.com/groups/4691739/profile"
+[[params.ananke_socials]]
+name = "youtube"
+url = "https://www.youtube.com/user/CJUGVideos"
