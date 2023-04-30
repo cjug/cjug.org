@@ -17,6 +17,7 @@ jobs:
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
+      - name: Checkout
       - uses: actions/checkout@v3
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
@@ -31,7 +32,7 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Commit to GitHub Pages repository
+      - name: Commit to cjug.github.io repository
         uses: cpina/github-action-push-to-another-repository@main
         env:
           SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
@@ -41,4 +42,4 @@ jobs:
           destination-github-username: 'cjug'
           destination-repository-name: 'cjug.github.io'
           user-email: '83935880+joshaustintech@users.noreply.github.com'
-          target-branch: main
+          target-branch: master
