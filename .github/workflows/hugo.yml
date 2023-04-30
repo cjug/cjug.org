@@ -30,7 +30,8 @@ jobs:
 
       - name: Build
         run: hugo --minify
-
+        run: echo "cjug.org" > public/CNAME
+      
       - name: Commit to cjug.github.io repository
         uses: cpina/github-action-push-to-another-repository@main
         env:
