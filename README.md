@@ -23,3 +23,8 @@ $ hugo server
 ```
 
 That's all! :)
+
+## Dev notes
+- Site content is entirely written in Markdown, found under the `/content` folder
+- Image files are found under `/static/images`
+- Any template overrides or customizations are done in the `/layouts` folder; you must **NEVER** touch any of the files under the `/themes` folder!
