@@ -30,6 +30,8 @@ jobs:
 
       - name: Build
         run: hugo --minify
+
+      - name: Add CNAME
         run: echo "cjug.org" > public/CNAME
       
       - name: Commit to cjug.github.io repository
