@@ -1,0 +1,38 @@
+name: GitHub Pages
+
+on:
+  push:
+    branches: ["master"] # Set a branch to deploy
+  pull_request:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.91.2'
+          # extended: true
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Commit to GitHub Pages repository
+        uses: cpina/github-action-push-to-another-repository@main
+        uses: fregante/setup-git-user@v1
+        env:
+          SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'public'
+          destination-github-username: 'cjug'
+          destination-repository-name: 'cjug.github.io'
+          target-branch: main
