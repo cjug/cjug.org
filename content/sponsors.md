@@ -6,7 +6,10 @@ cascade:
 ---
 
 # Current Sponsors
+
 [![JFrog](/images/jfrog.png)](https://jfrog.com/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[![FusionAuth](/images/FusionAuth.png)](https://fusionauth.io/?utm_medium=paid_referral&utm_source=chicago_jug&utm_campaign=meetup)
 
 # Be a Sponsor
 
