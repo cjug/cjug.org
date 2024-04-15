@@ -2,15 +2,17 @@
 title: "Sponsors"
 layout: 'page/single'
 cascade:
-  featured_image: '/images/chicago.jpg'
+  featured_image: '/images/chicago4.jpg'
 ---
 
-# Current Sponsors
-
+## Past Sponsors
+#### GOLD (2021, 2022) - SILVER (2023)
 [![JFrog](/images/jfrog.png)](https://jfrog.com/)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+#### SILVER (2023)
 [![FusionAuth](/images/FusionAuth.png)](https://fusionauth.io/?utm_medium=paid_referral&utm_source=chicago_jug&utm_campaign=meetup)
 
+<br/><br/>
 # Be a Sponsor
 
 | Sponsorship Type | Benefits | Cost |

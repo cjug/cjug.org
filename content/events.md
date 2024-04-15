@@ -2,7 +2,7 @@
 title: "Events"
 layout: 'page/single'
 cascade:
-  featured_image: '/images/chicago.jpg'
+  featured_image: '/images/chicago5.jpg'
 ---
 
 # OSS
