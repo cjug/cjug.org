@@ -3,16 +3,17 @@ title: "Welcome"
 description: "The Chicago Java User’s Group is here to help the Java Professional."
 layout: 'page/single'
 cascade:
-  featured_image: '/images/chicago.jpg'
+  featured_image: '/images/chicago2.jpg'
 ---
 # Upcoming Meetings
 For more information on our events, please visit our [Meetup page](https://www.meetup.com/ChicagoJUG/).
 
 # Previous Meetings
-Previous meetup recordings can be found on [Vimeo](https://vimeo.com/channels/1109817) and [YouTube](https://www.youtube.com/user/CJUGVideos).
+Previous meetup recordings can be found on [YouTube](https://www.youtube.com/user/CJUGVideos) and [Vimeo](https://vimeo.com/channels/1109817). 
 
 # Sponsors
-[![JFrog](/images/jfrog.png)](https://jfrog.com/)
+[![JetBrains](/images/jetbrains.jpg)](https://jetbrains.com)
+Provider of complimentary IntelliJ licenses
 
 # Java OffHeap Podcast
 Some of our current and past leadership are featured in the [Java OffHeap Podcast](https://www.javaoffheap.com/).
