@@ -31,21 +31,31 @@ theme = 'ananke'
   weight=5
 
 [params]
-[[params.ananke_socials]]
-name = "twitter"
-url = "https://twitter.com/cjug"
-[[params.ananke_socials]]
-name = "facebook"
-url = "https://facebook.com/ChicagoJava"
-[[params.ananke_socials]]
-name = "linkedin"
-url = "https://www.linkedin.com/groups/4691739/profile"
-[[params.ananke_socials]]
-name = "youtube"
-url = "https://www.youtube.com/user/CJUGVideos"
-[[params.ananke_socials]]
-name = "discord"
-url = "https://discord.gg/U25g437"
-[[params.ananke_socials]]
-name = "mastodon"
-url = "https://foojay.social/@ChicagoJUG"
+
+[params.ananke.social.follow]
+networks = [
+  "twitter",
+  "facebook",
+  "linkedin",
+  "youtube",
+  "discord",
+  "mastodon"
+]
+
+[params.ananke.social.twitter]
+username = "cjug"
+
+[params.ananke.social.facebook]
+username = "ChicagoJava"
+
+[params.ananke.social.linkedin]
+profileLink = "https://www.linkedin.com/groups/4691739/profile"
+
+[params.ananke.social.youtube]
+username = "CJUGVideos"
+
+[params.ananke.social.discord]
+profileLink = "https://discord.gg/U25g437"
+
+[params.ananke.social.mastodon]
+profileLink = "https://foojay.social/@ChicagoJUG"
